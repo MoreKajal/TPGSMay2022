@@ -1,0 +1,21 @@
+name : kaggle
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python == 3.9
+  - pip 
+  - nb_conda 
+  - jupyter
+  - pip:
+    - pandas
+    - seaborn
+    - datatable
+    - scikit-learn
+    - sweetviz
+    - category-encoders
+    - feature-engine
+    - xgboost
+    - optuna
+
+  
